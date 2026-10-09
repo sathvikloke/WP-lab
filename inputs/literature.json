@@ -1,0 +1,1481 @@
+{
+  "search": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=endothelial%5BTitle%5D+AND+%28identity%5BTitle%2FAbstract%5D+OR+specification%5BTitle%2FAbstract%5D+OR+reprogramming%5BTitle%2FAbstract%5D+OR+%22cell+fate%22%5BTitle%2FAbstract%5D%29+AND+%28%22transcription+factor%22%5BTitle%2FAbstract%5D+OR+%22transcription+factors%22%5BTitle%2FAbstract%5D+OR+ETV2%5BTitle%2FAbstract%5D+OR+ERG%5BTitle%2FAbstract%5D+OR+FLI1%5BTitle%2FAbstract%5D+OR+SOX17%5BTitle%2FAbstract%5D%29+AND+%28%222015%2F01%2F01%22%5BDate+-+Publication%5D+%3A+%222026%2F10%2F05%22%5BDate+-+Publication%5D%29+NOT+%28Review%5BPublication+Type%5D+OR+Editorial%5BPublication+Type%5D+OR+Comment%5BPublication+Type%5D%29&sort=relevance&retmax=60&retmode=json",
+    "query": "endothelial[Title] AND (identity[Title/Abstract] OR specification[Title/Abstract] OR reprogramming[Title/Abstract] OR \"cell fate\"[Title/Abstract]) AND (\"transcription factor\"[Title/Abstract] OR \"transcription factors\"[Title/Abstract] OR ETV2[Title/Abstract] OR ERG[Title/Abstract] OR FLI1[Title/Abstract] OR SOX17[Title/Abstract]) AND (\"2015/01/01\"[Date - Publication] : \"2026/10/05\"[Date - Publication]) NOT (Review[Publication Type] OR Editorial[Publication Type] OR Comment[Publication Type])",
+    "retrieved_at_utc": "2026-10-05T20:55:59Z",
+    "response": {
+      "header": {
+        "type": "esearch",
+        "version": "0.3"
+      },
+      "esearchresult": {
+        "count": "166",
+        "retmax": "60",
+        "retstart": "0",
+        "idlist": [
+          "37752768",
+          "31561945",
+          "38503291",
+          "33326796",
+          "32916216",
+          "35418167",
+          "38348657",
+          "26537113",
+          "36512477",
+          "35550615",
+          "38901605",
+          "28893556",
+          "29320761",
+          "27778229",
+          "38570531",
+          "35615560",
+          "26540589",
+          "41287966",
+          "36512862",
+          "41355963",
+          "33126651",
+          "28055225",
+          "31864907",
+          "42288671",
+          "40832854",
+          "42328432",
+          "41272813",
+          "40919531",
+          "32234721",
+          "33733392",
+          "38570190",
+          "40899274",
+          "40808654",
+          "37373052",
+          "42496831",
+          "40495012",
+          "27832801",
+          "41390669",
+          "25693840",
+          "38903080",
+          "30357379",
+          "29456178",
+          "32559816",
+          "33315013",
+          "41160897",
+          "38164151",
+          "30138849",
+          "32116021",
+          "34867995",
+          "28279709",
+          "31839543",
+          "36907523",
+          "42443196",
+          "35904801",
+          "31555281",
+          "40810103",
+          "29467285",
+          "34230480",
+          "26075898",
+          "25802403"
+        ],
+        "translationset": [],
+        "querytranslation": "(\"endothelial\"[Title] AND (\"identity\"[Title/Abstract] OR \"specification\"[Title/Abstract] OR \"reprogramming\"[Title/Abstract] OR \"cell fate\"[Title/Abstract]) AND (\"transcription factor\"[Title/Abstract] OR \"transcription factors\"[Title/Abstract] OR \"ETV2\"[Title/Abstract] OR \"ERG\"[Title/Abstract] OR \"FLI1\"[Title/Abstract] OR \"SOX17\"[Title/Abstract]) AND 2015/01/01:2026/10/05[Date - Publication]) NOT (\"Review\"[Publication Type] OR \"Editorial\"[Publication Type] OR \"Comment\"[Publication Type])"
+      }
+    },
+    "records_sha256": "d00273ef9cfc6ec9944b2a5ddd8a690db3b9be43b48ac91eb8545bbf20e68a25"
+  },
+  "screening": {
+    "criteria": "English-readable experimental studies or protocols on TF control of endothelial specification, reprogramming, specialization, maintenance or loss; 2015 through 2026-10-05; target 25 diverse examples. Top 60 relevance-ranked PubMed hits only. Not exhaustive; relevant papers also excluded to meet pilot size. No minimum citation count or full-text availability requirement.",
+    "selection_method": "AI-assisted thematic selection; no human screening claimed.",
+    "records": [
+      {
+        "pmid": "37752768",
+        "title": "Endothelial Cell-Derived Lactate Triggers Bone Mesenchymal Stem Cell Histone Lactylation to Attenuate Osteoporosis.",
+        "include": false,
+        "reason": "Endothelium affects bone mesenchymal-cell state; endothelial identity is not the main endpoint.",
+        "screening_basis": "AI title-level triage / pilot size limit",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "31561945",
+        "title": "Stellate Cells, Hepatocytes, and Endothelial Cells Imprint the Kupffer Cell Identity on Monocytes Colonizing the Liver Macrophage Niche.",
+        "include": false,
+        "reason": "Macrophage/Kupffer-cell identity is the endpoint.",
+        "screening_basis": "AI title-level triage / pilot size limit",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "38503291",
+        "title": "SOX17/ETV2 improves the direct reprogramming of adult fibroblasts to endothelial cells.",
+        "include": true,
+        "reason": "Directly informs reprogramming in the chosen endothelial identity scope.",
+        "screening_basis": "abstract reviewed by AI",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "33326796",
+        "title": "Endothelial Reprogramming by Disturbed Flow Revealed by Single-Cell RNA and Chromatin Accessibility Study.",
+        "include": true,
+        "reason": "Directly informs identity loss in the chosen endothelial identity scope.",
+        "screening_basis": "abstract reviewed by AI",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "32916216",
+        "title": "Endothelial GATA4 controls liver fibrosis and regeneration by preventing a pathogenic switch in angiocrine signaling.",
+        "include": true,
+        "reason": "Directly informs identity maintenance in the chosen endothelial identity scope.",
+        "screening_basis": "abstract reviewed by AI",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "35418167",
+        "title": "IGFBP5 promotes diabetic kidney disease progression by enhancing PFKFB3-mediated endothelial glycolysis.",
+        "include": false,
+        "reason": "Metabolic disease mechanism rather than the chosen TF/identity focus.",
+        "screening_basis": "AI title-level triage / pilot size limit",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "38348657",
+        "title": "Molecular and Spatial Signatures of Mouse Embryonic Endothelial Cells at Single-Cell Resolution.",
+        "include": false,
+        "reason": "Relevant endothelial atlas; omitted to keep the set focused on TF mechanisms and perturbations.",
+        "screening_basis": "AI title-level triage / pilot size limit",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "26537113",
+        "title": "Venous Endothelial Marker COUP-TFII Regulates the Distinct Pathologic Potentials of Adult Arteries and Veins.",
+        "include": true,
+        "reason": "Directly informs vascular specialization in the chosen endothelial identity scope.",
+        "screening_basis": "abstract reviewed by AI",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "36512477",
+        "title": "ETV2 Upregulation Marks the Specification of Early Cardiomyocytes and Endothelial Cells During Co-differentiation.",
+        "include": true,
+        "reason": "Directly informs specification in the chosen endothelial identity scope.",
+        "screening_basis": "abstract reviewed by AI",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "35550615",
+        "title": "ETV2 functions as a pioneer factor to regulate and reprogram the endothelial lineage.",
+        "include": true,
+        "reason": "Directly informs specification in the chosen endothelial identity scope.",
+        "screening_basis": "abstract reviewed by AI",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "38901605",
+        "title": "A genetically inducible endothelial niche enables vascularization of human kidney organoids with multilineage maturation and emergence of renin expressing cells.",
+        "include": false,
+        "reason": "Kidney organoid vascularization application; omitted for the 25-paper pilot.",
+        "screening_basis": "AI title-level triage / pilot size limit",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "28893556",
+        "title": "The ILK-MMP9-MRTF axis is crucial for EndMT differentiation of endothelial cells in a tumor microenvironment.",
+        "include": false,
+        "reason": "Relevant EndMT signaling; omitted in favor of direct TF/chromatin studies.",
+        "screening_basis": "AI title-level triage / pilot size limit",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "29320761",
+        "title": "Expandable Arterial Endothelial Precursors from Human CD34+ Cells Differ in Their Proclivity to Undergo an Endothelial-to-Mesenchymal Transition.",
+        "include": false,
+        "reason": "Relevant precursor/EndMT comparison; omitted for the 25-paper pilot.",
+        "screening_basis": "AI title-level triage / pilot size limit",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "27778229",
+        "title": "Production of endothelial progenitor cells from skin fibroblasts by direct reprogramming for clinical usages.",
+        "include": true,
+        "reason": "Directly informs reprogramming in the chosen endothelial identity scope.",
+        "screening_basis": "abstract reviewed by AI",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "38570531",
+        "title": "Eph-ephrin signaling couples endothelial cell sorting and arterial specification.",
+        "include": false,
+        "reason": "Relevant arterial specification signaling; omitted in favor of direct TF mechanisms.",
+        "screening_basis": "AI title-level triage / pilot size limit",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "35615560",
+        "title": "Single-Cell Analysis Reveals Transcriptomic Reprogramming in Aging Cardiovascular Endothelial Cells.",
+        "include": false,
+        "reason": "Relevant aging atlas; omitted in favor of perturbation/mechanistic studies.",
+        "screening_basis": "AI title-level triage / pilot size limit",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "26540589",
+        "title": "Direct conversion of human amniotic cells into endothelial cells without transitioning through a pluripotent state.",
+        "include": true,
+        "reason": "Directly informs reprogramming in the chosen endothelial identity scope.",
+        "screening_basis": "abstract reviewed by AI",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "41287966",
+        "title": "Generation of hiPSC-Derived Brain Microvascular Endothelial Cells Using Directed Differentiation and Transcriptional Reprogramming.",
+        "include": false,
+        "reason": "Relevant brain EC protocol; omitted for the 25-paper pilot.",
+        "screening_basis": "AI title-level triage / pilot size limit",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "36512862",
+        "title": "Sox17 mediates adult arterial endothelial cell adaptation to hemodynamics.",
+        "include": true,
+        "reason": "Directly informs vascular specialization in the chosen endothelial identity scope.",
+        "screening_basis": "abstract reviewed by AI",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "41355963",
+        "title": "Super-enhancer-driven core transcription factor FOXP1 delays endothelial cell senescence via phase separation-mediated SESN3 activation.",
+        "include": false,
+        "reason": "Relevant senescence TF mechanism; omitted to prioritize specification and identity transitions.",
+        "screening_basis": "AI title-level triage / pilot size limit",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "33126651",
+        "title": "Co-Culture of Primary Human Coronary Artery and Internal Thoracic Artery Endothelial Cells Results in Mutually Beneficial Paracrine Interactions.",
+        "include": false,
+        "reason": "Paracrine co-culture rather than direct identity regulation is the title-level focus.",
+        "screening_basis": "AI title-level triage / pilot size limit",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "28055225",
+        "title": "Overexpression of Prox1 Induces the Differentiation of Human Adipose-Derived Stem Cells into Lymphatic Endothelial-Like Cells In Vitro.",
+        "include": true,
+        "reason": "Directly informs reprogramming in the chosen endothelial identity scope.",
+        "screening_basis": "abstract reviewed by AI",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "31864907",
+        "title": "cAMP/EPAC Signaling Enables ETV2 to Induce Endothelial Cells with High Angiogenesis Potential.",
+        "include": true,
+        "reason": "Directly informs reprogramming in the chosen endothelial identity scope.",
+        "screening_basis": "abstract reviewed by AI",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "42288671",
+        "title": "ETS-guided iPSC-endothelial models recapitulate malaria pathogenesis.",
+        "include": false,
+        "reason": "Malaria model application rather than identity mechanism is the title-level focus.",
+        "screening_basis": "AI title-level triage / pilot size limit",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "40832854",
+        "title": "The pioneer factor, ETV2, regulates networks to specify the embryonic endothelial lineage.",
+        "include": true,
+        "reason": "Directly informs specification in the chosen endothelial identity scope.",
+        "screening_basis": "abstract reviewed by AI",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "42328432",
+        "title": "Fibrillin-1 Orchestrates a Pro-senescent Niche Driving Peritubular Endothelial Senescence via ZEB1/endothelin-1/β-catenin Signaling.",
+        "include": false,
+        "reason": "Senescence niche signaling rather than direct identity regulation is the title-level focus.",
+        "screening_basis": "AI title-level triage / pilot size limit",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "41272813",
+        "title": "APPswe mutation causes functional deficits in endothelial cells generated by transient ETV2 overexpression in human iPSCs.",
+        "include": false,
+        "reason": "Disease-model application of ETV2; omitted in favor of specification mechanisms.",
+        "screening_basis": "AI title-level triage / pilot size limit",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "40919531",
+        "title": "Organelle stresses and energetic metabolisms promote endothelial-to-mesenchymal transition and fibrosis via upregulating FOSB and MEOX1 in Alzheimer's disease.",
+        "include": false,
+        "reason": "Relevant disease-associated EndMT; omitted for thematic balance in the 25-paper pilot.",
+        "screening_basis": "AI title-level triage / pilot size limit",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "32234721",
+        "title": "TWIST1-Reprogrammed Endothelial Cell Transplantation Potentiates Neovascularization-Mediated Diabetic Wound Tissue Regeneration.",
+        "include": true,
+        "reason": "Directly informs reprogramming in the chosen endothelial identity scope.",
+        "screening_basis": "abstract reviewed by AI",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "33733392",
+        "title": "Generation of Human Induced Pluripotent Stem Cells Using Endothelial Progenitor Cells Derived from Umbilical Cord Blood and Adult Peripheral Blood.",
+        "include": false,
+        "reason": "Reprogramming endothelial progenitors to pluripotency, outside the chosen direction.",
+        "screening_basis": "AI title-level triage / pilot size limit",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "38570190",
+        "title": "ETV2 induces endothelial, but not hematopoietic, lineage specification in birds.",
+        "include": true,
+        "reason": "Directly informs specification in the chosen endothelial identity scope.",
+        "screening_basis": "abstract reviewed by AI",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "40899274",
+        "title": "Single-Short Partial Reprogramming of the Endothelial Cells Decreases Blood Pressure via Attenuation of EndMT in Hypertensive Mice.",
+        "include": false,
+        "reason": "Relevant partial reprogramming/EndMT; omitted for the 25-paper pilot.",
+        "screening_basis": "AI title-level triage / pilot size limit",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "40808654",
+        "title": "ANGPTL4 Prevents Atherosclerosis by Preserving KLF2 to Suppress EndMT and Mitigates Endothelial Dysfunction.",
+        "include": false,
+        "reason": "Relevant KLF2/EndMT signaling; omitted for the 25-paper pilot.",
+        "screening_basis": "AI title-level triage / pilot size limit",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "37373052",
+        "title": "ETV2 Enhances CXCL5 Secretion from Endothelial Cells, Leading to the Promotion of Vascular Smooth Muscle Cell Migration.",
+        "include": false,
+        "reason": "Smooth-muscle migration is the principal endpoint.",
+        "screening_basis": "AI title-level triage / pilot size limit",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "42496831",
+        "title": "Circulating factors induced by time-restricted eating drive metabolic reprogramming in endothelial cells.",
+        "include": false,
+        "reason": "Diet-associated endothelial metabolism, outside the selected focus.",
+        "screening_basis": "AI title-level triage / pilot size limit",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "40495012",
+        "title": "Pioneer factor ETV2 safeguards endothelial cell specification by recruiting the repressor REST to restrict alternative lineage commitment.",
+        "include": true,
+        "reason": "Directly informs specification in the chosen endothelial identity scope.",
+        "screening_basis": "abstract reviewed by AI",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "27832801",
+        "title": "Gene expression comparison reveals distinct basal expression of HOX members and differential TNF-induced response between brain- and spinal cord-derived microvascular endothelial cells.",
+        "include": false,
+        "reason": "Relevant regional expression comparison; omitted in favor of direct identity mechanisms.",
+        "screening_basis": "AI title-level triage / pilot size limit",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "41390669",
+        "title": "Targeted CRISPR-Cas9 screening identifies core transcription factors controlling murine haemato-endothelial fate commitment.",
+        "include": true,
+        "reason": "Directly informs specification in the chosen endothelial identity scope.",
+        "screening_basis": "abstract reviewed by AI",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "25693840",
+        "title": "Integrin α6β1 Expressed in ESCs Instructs the Differentiation to Endothelial Cells.",
+        "include": false,
+        "reason": "Relevant integrin-driven differentiation; omitted in favor of TF perturbation studies.",
+        "screening_basis": "AI title-level triage / pilot size limit",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "38903080",
+        "title": "Generation of hiPSC-derived brain microvascular endothelial cells using a combination of directed differentiation and transcriptional reprogramming strategies.",
+        "include": false,
+        "reason": "Relevant brain EC engineering; omitted for the 25-paper pilot.",
+        "screening_basis": "AI title-level triage / pilot size limit",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "30357379",
+        "title": "EndoDB: a database of endothelial cell transcriptomics data.",
+        "include": false,
+        "reason": "Database resource rather than an experimental identity study.",
+        "screening_basis": "AI title-level triage / pilot size limit",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "29456178",
+        "title": "HOXB4 Promotes Hemogenic Endothelium Formation without Perturbing Endothelial Cell Development.",
+        "include": true,
+        "reason": "Directly informs specification in the chosen endothelial identity scope.",
+        "screening_basis": "abstract reviewed by AI",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "32559816",
+        "title": "KSHV dysregulates bulk macroautophagy, mitophagy and UPR to promote endothelial to mesenchymal transition and CCL2 release, key events in viral-driven sarcomagenesis.",
+        "include": false,
+        "reason": "Viral stress/autophagy mechanism; omitted in favor of TF/chromatin studies.",
+        "screening_basis": "AI title-level triage / pilot size limit",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "33315013",
+        "title": "Cardiac endothelial cells maintain open chromatin and expression of cardiomyocyte myofibrillar genes.",
+        "include": true,
+        "reason": "Directly informs vascular specialization in the chosen endothelial identity scope.",
+        "screening_basis": "abstract reviewed by AI",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "41160897",
+        "title": "Transcription factor 4 maintains endothelial cell identity by inhibiting endothelial to mesenchymal transition.",
+        "include": true,
+        "reason": "Directly informs identity maintenance in the chosen endothelial identity scope.",
+        "screening_basis": "abstract reviewed by AI",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "38164151",
+        "title": "Reprogramming of endothelial gene expression by tamoxifen inhibits angiogenesis and ERα-negative tumor growth.",
+        "include": false,
+        "reason": "Drug-associated expression effects; omitted in favor of direct identity regulation.",
+        "screening_basis": "AI title-level triage / pilot size limit",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "30138849",
+        "title": "Integration-free reprogramming of human umbilical arterial endothelial cells into induced pluripotent stem cells IHSTMi001-A.",
+        "include": false,
+        "reason": "Generation of an iPSC line from endothelial cells, outside the chosen direction.",
+        "screening_basis": "AI title-level triage / pilot size limit",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "32116021",
+        "title": "Unraveling the transcriptional determinants of liver sinusoidal endothelial cell specialization.",
+        "include": true,
+        "reason": "Directly informs vascular specialization in the chosen endothelial identity scope.",
+        "screening_basis": "abstract reviewed by AI",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "34867995",
+        "title": "Transcriptomic Remodelling of Fetal Endothelial Cells During Establishment of Inflammatory Memory.",
+        "include": false,
+        "reason": "Inflammatory memory profiling; omitted in favor of direct TF/identity mechanisms.",
+        "screening_basis": "AI title-level triage / pilot size limit",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "28279709",
+        "title": "Vegf signaling promotes vascular endothelial differentiation by modulating etv2 expression.",
+        "include": true,
+        "reason": "Directly informs specification in the chosen endothelial identity scope.",
+        "screening_basis": "abstract reviewed by AI",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "31839543",
+        "title": "Inducible Forward Programming of Human Pluripotent Stem Cells to Hemato-endothelial Progenitor Cells with Hematopoietic Progenitor Potential.",
+        "include": false,
+        "reason": "Relevant hemato-endothelial programming; omitted for the 25-paper pilot.",
+        "screening_basis": "AI title-level triage / pilot size limit",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "36907523",
+        "title": "A TEAD2-Driven Endothelial-Like Program Shapes Basal-Like Differentiation and Metastasis of Pancreatic Cancer.",
+        "include": false,
+        "reason": "Endothelial-like program in pancreatic cancer cells, outside the selected endothelial-cell scope.",
+        "screening_basis": "AI title-level triage / pilot size limit",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "42443196",
+        "title": "ERG preserves endothelial identity to limit atherosclerosis.",
+        "include": true,
+        "reason": "Directly informs identity maintenance in the chosen endothelial identity scope.",
+        "screening_basis": "abstract reviewed by AI",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "35904801",
+        "title": "SOX9 reprograms endothelial cells by altering the chromatin landscape.",
+        "include": true,
+        "reason": "Directly informs identity loss in the chosen endothelial identity scope.",
+        "screening_basis": "abstract reviewed by AI",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "31555281",
+        "title": "STAT3 Mediates the Differential Effects of Oncostatin M and TNFα on RA Synovial Fibroblast and Endothelial Cell Function.",
+        "include": false,
+        "reason": "Inflammatory cytokine response is the title-level focus.",
+        "screening_basis": "AI title-level triage / pilot size limit",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "40810103",
+        "title": "Endothelial c-Maf prevents MASLD-like liver fibrosis by regulating chromatin accessibility to suppress pathogenic microvascular cell subsets.",
+        "include": true,
+        "reason": "Directly informs identity maintenance in the chosen endothelial identity scope.",
+        "screening_basis": "abstract reviewed by AI",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "29467285",
+        "title": "Angiogenic patterning by STEEL, an endothelial-enriched long noncoding RNA.",
+        "include": false,
+        "reason": "Relevant lncRNA angiogenesis mechanism; omitted to prioritize TF control.",
+        "screening_basis": "AI title-level triage / pilot size limit",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "34230480",
+        "title": "Coordination of endothelial cell positioning and fate specification by the epicardium.",
+        "include": false,
+        "reason": "Relevant epicardial signaling/positioning; omitted for the 25-paper pilot.",
+        "screening_basis": "AI title-level triage / pilot size limit",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "26075898",
+        "title": "KLF4 Promotes Angiogenesis by Activating VEGF Signaling in Human Retinal Microvascular Endothelial Cells.",
+        "include": false,
+        "reason": "Relevant KLF4 angiogenesis mechanism; omitted to prioritize specification and identity transitions.",
+        "screening_basis": "AI title-level triage / pilot size limit",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "25802403",
+        "title": "Induction of hematopoietic and endothelial cell program orchestrated by ETS transcription factor ER71/ETV2.",
+        "include": true,
+        "reason": "Directly informs specification in the chosen endothelial identity scope.",
+        "screening_basis": "abstract reviewed by AI",
+        "human_reviewed": false
+      }
+    ]
+  },
+  "annotations": {
+    "provenance": {
+      "assistant": "OpenAI Codex",
+      "created_at_utc": "2026-10-05T21:04:17Z",
+      "method": "Codex read the retrieved abstracts and drafted these annotations during the session. The collector uses this saved output. The exact deployed model identifier was unavailable.",
+      "human_review_status": "pending"
+    },
+    "records": [
+      {
+        "pmid": "38503291",
+        "category": "Reprogramming",
+        "factors": [
+          "SOX17",
+          "ETV2"
+        ],
+        "model": "Adult human dermal fibroblasts; in vivo vessel assay",
+        "methods": [
+          "Factor overexpression",
+          "EC marker analysis",
+          "Vessel formation"
+        ],
+        "finding": "SOX17 combined with ETV2 improved fibroblast conversion and several endothelial functional readouts.",
+        "limitation": "The abstract covers selected functional assays; it leaves long-term stability across tissue settings unresolved.",
+        "evidence_quote": "by overexpressing SOX17 in conjunction with ETV2",
+        "abstract_sha256": "1cee7cbe4e4d3b501709ed1486ef9a02e18eb93b59703219d5f26c479511b957",
+        "evidence_scope": "PubMed abstract",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "33326796",
+        "category": "Identity loss",
+        "factors": [
+          "KLF2",
+          "KLF4",
+          "RELA",
+          "AP1",
+          "STAT1",
+          "TEAD1"
+        ],
+        "model": "Mouse partial carotid ligation",
+        "methods": [
+          "scRNA-seq",
+          "scATAC-seq",
+          "Pseudotime"
+        ],
+        "finding": "Disturbed flow was associated with endothelial inflammatory and mesenchymal programs and altered motif accessibility.",
+        "limitation": "Pseudotime and motif accessibility suggest changes in cell state; lineage tracing and perturbation would be needed to test the proposed transitions and regulators.",
+        "evidence_quote": "single-cell RNA sequencing (scRNA-seq) and scATAC-seq",
+        "abstract_sha256": "a3e9bb23f3798104c896a48553ec5073598f4aa8936a74a44d71741f19d08b00",
+        "evidence_scope": "PubMed abstract",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "32916216",
+        "category": "Identity maintenance",
+        "factors": [
+          "GATA4",
+          "MYC"
+        ],
+        "model": "Adult mouse LSEC-specific Gata4 knockout; human cirrhosis datasets",
+        "methods": [
+          "Conditional knockout",
+          "ATAC-seq",
+          "ChIP-seq",
+          "Expression profiling"
+        ],
+        "finding": "Loss of endothelial GATA4 induced sinusoidal capillarization and profibrotic signaling involving MYC and PDGFB.",
+        "limitation": "The mouse knockout tests the effect of GATA4 loss. The human cirrhosis comparison is observational.",
+        "evidence_quote": "LSEC-to-continuous endothelial transdifferentiation",
+        "abstract_sha256": "cf7c075df3c6b4869b69d5563eb9d8d7462f336edb6ae3bd20176c5515bf3ef2",
+        "evidence_scope": "PubMed abstract",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "26537113",
+        "category": "Vascular specialization",
+        "factors": [
+          "COUP-TFII"
+        ],
+        "model": "Adult venous endothelial cultures; mouse artery/vein comparison",
+        "methods": [
+          "Knockdown",
+          "Overexpression",
+          "Gene expression"
+        ],
+        "finding": "COUP-TFII manipulation changed inflammatory, thrombotic and mesenchymal phenotypes of venous endothelial cells.",
+        "limitation": "COUP-TFII accounts for part of a broader set of differences between arteries and veins.",
+        "evidence_quote": "COUP-TFII knockdown also readily undergo endothelial-to-mesenchymal transition",
+        "abstract_sha256": "d4ebde0803b9e6dc57c84dc663be5d4b2bf233a927ab69db80bce40900e17191",
+        "evidence_scope": "PubMed abstract",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "36512477",
+        "category": "Specification",
+        "factors": [
+          "ETV2"
+        ],
+        "model": "Human iPSC cardiac/endothelial co-differentiation",
+        "methods": [
+          "scRNA-seq",
+          "Fluorescent reporter"
+        ],
+        "finding": "ETV2 expression dynamics distinguished early endothelial and cardiomyocyte lineage-predisposed states.",
+        "limitation": "These reporter dynamics come from an in vitro differentiation system. Their relevance to development in vivo needs testing.",
+        "evidence_quote": "a transient ETV2-high-state initiates the specification of endothelial cells",
+        "abstract_sha256": "15ee12fe24adc328c4cc55da9881df435700c98cf8bcbf63831f9f5da42efa09",
+        "evidence_scope": "PubMed abstract",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "35550615",
+        "category": "Specification",
+        "factors": [
+          "ETV2",
+          "BRG1"
+        ],
+        "model": "Engineered embryonic stem-cell differentiation and reprogramming models",
+        "methods": [
+          "Multi-omics",
+          "Chromatin binding",
+          "Chromatin remodeling"
+        ],
+        "finding": "ETV2 bound nucleosomal DNA and recruited BRG1, linking pioneer activity to endothelial chromatin opening.",
+        "limitation": "The mechanism comes from engineered differentiation and reprogramming models; its range across endothelial contexts remains a question.",
+        "evidence_quote": "ETV2 was able to bind nucleosomal DNA and recruit BRG1",
+        "abstract_sha256": "d9308c4610a76dc8a0776d85218c925e7d196f0ca377d1fabc0ff0319b4ed980",
+        "evidence_scope": "PubMed abstract",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "27778229",
+        "category": "Reprogramming",
+        "factors": [
+          "ETV2"
+        ],
+        "model": "Human skin fibroblasts; mouse hindlimb ischemia assay",
+        "methods": [
+          "mRNA transfection",
+          "Hypoxia culture",
+          "Marker and functional assays"
+        ],
+        "finding": "ETV2 mRNA plus hypoxia generated endothelial progenitor-like cells from fibroblasts at low reported efficiency.",
+        "limitation": "The reported conversion efficiency was low, and the functional test used a mouse ischemia model.",
+        "evidence_quote": "ETV2 mRNA combined with hypoxia can give rise to functional EPCs",
+        "abstract_sha256": "764b95832e9e733e6bb14d14fe6fbf112f3dc18afbafe0b3a69b400dc1d5baf9",
+        "evidence_scope": "PubMed abstract",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "26540589",
+        "category": "Reprogramming",
+        "factors": [
+          "ETV2",
+          "FLI1",
+          "ERG1"
+        ],
+        "model": "Human amniotic fluid-derived cells; implantation in mice",
+        "methods": [
+          "Conversion protocol",
+          "ETS factor expression",
+          "TGF-beta inhibition"
+        ],
+        "finding": "A conversion platform combined transient ETV2 with sustained FLI1/ERG1 and TGF-beta inhibition to produce expandable endothelium.",
+        "limitation": "This paper describes a conversion protocol. Its therapeutic usefulness would need separate testing.",
+        "evidence_quote": "constitutive expression the ETS transcription factors FLI1 and ERG1",
+        "abstract_sha256": "c5f50eaf5161e864af3b110dc5090583cfe58832ccbce8231190938ca581650d",
+        "evidence_scope": "PubMed abstract",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "36512862",
+        "category": "Vascular specialization",
+        "factors": [
+          "SOX17"
+        ],
+        "model": "Cultured venous endothelial cells under controlled flow",
+        "methods": [
+          "Inducible expression",
+          "3D fibrin assays",
+          "Microfluidics"
+        ],
+        "finding": "SOX17 induced arterial/tip-cell programs whose functional effects depended on mechanical and supporting-cell context.",
+        "limitation": "Cultured venous cells under controlled flow capture only part of the environment in adult arteries.",
+        "evidence_quote": "Sox17-induced ECs exhibit a gene profile favoring arterial and tip cell identity",
+        "abstract_sha256": "a9a208392ead8e64ca9678d68df0b107787130d4f19d6e9c2177dbf2e84ddea6",
+        "evidence_scope": "PubMed abstract",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "28055225",
+        "category": "Reprogramming",
+        "factors": [
+          "PROX1"
+        ],
+        "model": "Human adipose-derived stem cells in vitro",
+        "methods": [
+          "Lentiviral overexpression",
+          "Flow cytometry",
+          "RT-PCR",
+          "Tube formation"
+        ],
+        "finding": "PROX1 overexpression induced lymphatic endothelial-like markers and tube-forming behavior.",
+        "limitation": "Marker expression and Matrigel tube formation leave mature lymphatic function unresolved.",
+        "evidence_quote": "induced the differentiation of hADSCs into stable lymphatic endothelial-like cells",
+        "abstract_sha256": "8e565b1699802a228781b6be2cb463eae6b8a74bf3b0ffb91dde3fc8f4b79730",
+        "evidence_scope": "PubMed abstract",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "31864907",
+        "category": "Reprogramming",
+        "factors": [
+          "ETV2"
+        ],
+        "model": "Human fibroblast conversion; vascular functional assays",
+        "methods": [
+          "ChIP-seq",
+          "Signaling-modulator screen",
+          "Angiogenesis assays"
+        ],
+        "finding": "Activation of cAMP/EPAC/RAP1 enhanced ETV2-driven conversion and angiogenesis-related function.",
+        "limitation": "The assays assess conversion and angiogenesis; broader comparisons with native endothelium would help establish how complete the conversion is.",
+        "evidence_quote": "forskolin facilitated efficient and rapid iEC reprogramming",
+        "abstract_sha256": "2eb98ee69bf4745f0e7cf6e0fe8ab387129cab7d4727660ceeaa4e53b97a846e",
+        "evidence_scope": "PubMed abstract",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "40832854",
+        "category": "Specification",
+        "factors": [
+          "ETV2",
+          "MESP1"
+        ],
+        "model": "Mouse ESC/embryoid bodies and embryos",
+        "methods": [
+          "scRNA-seq",
+          "ATAC-seq",
+          "ChIP-seq",
+          "Knockout",
+          "EMSA"
+        ],
+        "finding": "ETV2 dosage and context promoted hematoendothelial programs while suppressing alternative mesodermal programs, including Mesp1.",
+        "limitation": "The experiments use mouse developmental models, which may behave differently from human differentiation cultures.",
+        "evidence_quote": "Master regulators of the cardiac lineage including Mesp1",
+        "abstract_sha256": "91732f42f972f7c7ddc7ed4c7023f066b6f5fa473c5c31b9e89dd9d2aca31b0c",
+        "evidence_scope": "PubMed abstract",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "32234721",
+        "category": "Reprogramming",
+        "factors": [
+          "TWIST1",
+          "ID1"
+        ],
+        "model": "Wharton jelly stromal cells; diabetic mouse wounds",
+        "methods": [
+          "Expression-data meta-analysis",
+          "TF perturbation",
+          "Cell transplantation"
+        ],
+        "finding": "TWIST1 promoted endothelial programming of stromal cells and vascular repair readouts in diabetic mouse wounds.",
+        "limitation": "The result depends on the starting stromal cells and experimental setting; TWIST1 can have different roles in other endothelial contexts.",
+        "evidence_quote": "Twist1 reprogramming enhanced the endothelial lineage commitment of WJ-MSC",
+        "abstract_sha256": "15e3871fb31ff5766fa1446d7d82919aec08689644bbbb79e715f80357d70bfb",
+        "evidence_scope": "PubMed abstract",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "38570190",
+        "category": "Specification",
+        "factors": [
+          "ETV2",
+          "NPAS4L",
+          "LMO2"
+        ],
+        "model": "Chicken mesoderm, gecko and comparative avian genomics",
+        "methods": [
+          "Comparative genomics",
+          "Ectopic expression",
+          "Epistasis"
+        ],
+        "finding": "Ectopic ETV2 induced an endothelial-associated program in avian mesoderm without the corresponding hematopoietic response.",
+        "limitation": "The ancestral regulatory model is an inference from comparative genomes and expression experiments.",
+        "evidence_quote": "Mouse ETV2 induced LMO2, but not NPAS4L or SCL",
+        "abstract_sha256": "a755b3ea910da21ac8faa85aae889fb85629717c48dd913125d79880eb5589ad",
+        "evidence_scope": "PubMed abstract",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "40495012",
+        "category": "Specification",
+        "factors": [
+          "ETV2",
+          "REST",
+          "GABPA"
+        ],
+        "model": "Human iPSC-derived mesodermal progenitors",
+        "methods": [
+          "CUT&RUN",
+          "scRNA-seq",
+          "scATAC-seq",
+          "Functional screening"
+        ],
+        "finding": "ETV2 used both activating cofactors and REST-mediated repression of alternative-lineage genes during endothelial specification.",
+        "limitation": "The experiments use induced differentiation. Whether the same mechanism operates across adult endothelial tissues needs testing.",
+        "evidence_quote": "ETV2 recruited REST to repress non-EC lineage genes",
+        "abstract_sha256": "0002f16601686468fcf2d7f025ccafe83ef8436674418a96deca3d66aad4101d",
+        "evidence_scope": "PubMed abstract",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "41390669",
+        "category": "Specification",
+        "factors": [
+          "ETV2",
+          "LDB1",
+          "SMAD1",
+          "SIX4",
+          "ZBTB7b"
+        ],
+        "model": "Murine embryonic stem-cell model of embryonic blood development",
+        "methods": [
+          "Targeted CRISPR knockout screen",
+          "Transcriptome analysis"
+        ],
+        "finding": "A targeted screen identified regulators whose loss biased mesoderm away from normal haemato-endothelial commitment.",
+        "limitation": "The screen covers selected transcription factors and chromatin regulators in a mouse cell model.",
+        "evidence_quote": "ETV2, LDB1, SMAD1, SIX4 and ZBTB7b",
+        "abstract_sha256": "a49f3f0e853f4acc3e7834ba28a4121c34a8299e15b8ab092b58b6eb1d219408",
+        "evidence_scope": "PubMed abstract",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "29456178",
+        "category": "Specification",
+        "factors": [
+          "HOXB4",
+          "RUNX1"
+        ],
+        "model": "Differentiating mouse ESCs with inducible Runx1",
+        "methods": [
+          "Retroviral expression",
+          "Inducible rescue",
+          "Transcriptome analysis"
+        ],
+        "finding": "HOXB4 promoted hemogenic endothelium formation while preserving overall endothelial development.",
+        "limitation": "The endpoint is hemogenic endothelium, a developmental state distinct from mature vascular endothelium.",
+        "evidence_quote": "HOXB4 promoted the formation of hemogenic endothelium cells",
+        "abstract_sha256": "db940811c144619bb32afd7665a7cf96562f6d98de4915521c31ed7387d5feed",
+        "evidence_scope": "PubMed abstract",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "33315013",
+        "category": "Vascular specialization",
+        "factors": [],
+        "model": "Cardiac endothelial cells and isolated nuclei",
+        "methods": [
+          "Bulk RNA-seq",
+          "scRNA-seq",
+          "In situ hybridization",
+          "ATAC-seq"
+        ],
+        "finding": "Cardiac endothelial cells showed cell-autonomous myofibrillar transcription and promoter accessibility that diminished in culture.",
+        "limitation": "Motif enrichment points to possible regulators, but the abstract does not establish a causal role for an individual factor.",
+        "evidence_quote": "have open chromatin at CMF gene promoters",
+        "abstract_sha256": "5927c16dc9a3e5e5094059eb230027e83fc6d56ce3d66c202227a3fc156bb38c",
+        "evidence_scope": "PubMed abstract",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "41160897",
+        "category": "Identity maintenance",
+        "factors": [
+          "TCF4"
+        ],
+        "model": "Endothelial cultures, EndoMT models and heart-failure patient ECs",
+        "methods": [
+          "Knockdown",
+          "Promoter binding",
+          "Exogenous expression"
+        ],
+        "finding": "TCF4 repressed TGF-beta-pathway genes and helped maintain endothelial phenotype against EndoMT.",
+        "limitation": "TCF4 refers to ITF2 in this paper. The rescue experiments do not establish a treatment effect in patients.",
+        "evidence_quote": "TCF4; also known as ITF2",
+        "abstract_sha256": "b1ef75997812e9611da47f831184d9cfe82bfb01729d6b3d9a39dcbc73080ccc",
+        "evidence_scope": "PubMed abstract",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "32116021",
+        "category": "Vascular specialization",
+        "factors": [
+          "C-MAF",
+          "GATA4",
+          "MEIS2"
+        ],
+        "model": "Liver/heart/brain EC comparison and engineered HUVECs",
+        "methods": [
+          "Comparative expression",
+          "TF overexpression",
+          "Protein assays"
+        ],
+        "finding": "C-MAF, GATA4 and MEIS2 together increased a liver-sinusoidal marker program but did not fully recreate LSEC function.",
+        "limitation": "The three-factor combination did not significantly induce receptor-mediated endocytosis, leaving an important LSEC function incomplete.",
+        "evidence_quote": "receptor-mediated endocytosis was not significantly induced",
+        "abstract_sha256": "01e9b150177d45464b82125621d10fd63563fe5aa2a53a6c63fc93d83ebfa985",
+        "evidence_scope": "PubMed abstract",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "28279709",
+        "category": "Specification",
+        "factors": [
+          "ETV2"
+        ],
+        "model": "Zebrafish embryos",
+        "methods": [
+          "VEGFR inhibition",
+          "Genetic mutants",
+          "Overexpression rescue"
+        ],
+        "finding": "VEGF signaling levels influenced general endothelial differentiation and arterial specification, partly through etv2.",
+        "limitation": "Both dose and developmental timing affect the result, and broad VEGFR inhibition also affects cell survival.",
+        "evidence_quote": "Vegf signaling affects overall endothelial differentiation",
+        "abstract_sha256": "8193584b7f6e3a271a18e9512667ba26cb0409a7e42fb31569a3bc2da2ea423f",
+        "evidence_scope": "PubMed abstract",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "42443196",
+        "category": "Identity maintenance",
+        "factors": [
+          "ERG"
+        ],
+        "model": "Hypercholesterolemic mice, human plaques and cultured EndMT cells",
+        "methods": [
+          "Inducible knockout",
+          "Lineage tracing",
+          "Single-cell transcriptomics",
+          "Restoration"
+        ],
+        "finding": "ERG loss promoted endothelial identity loss and atherosclerotic pathology; restoration reversed mesenchymal programs in culture.",
+        "limitation": "The human plaque comparisons are observational. The restoration experiment tests cultured cells.",
+        "evidence_quote": "ERG loss drove endothelial dedifferentiation",
+        "abstract_sha256": "78f970a7a0cef6b03f172120430affc9761c22d33e817070aa788dbb617231cf",
+        "evidence_scope": "PubMed abstract",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "35904801",
+        "category": "Identity loss",
+        "factors": [
+          "SOX9"
+        ],
+        "model": "HUVEC EndMT model; atherosclerotic lesions",
+        "methods": [
+          "Factor expression",
+          "Chromatin profiling",
+          "Single-cell accessibility"
+        ],
+        "finding": "SOX9 altered endothelial chromatin and induced persistent mesenchymal programs despite dynamic factor binding.",
+        "limitation": "SOX9 was sufficient to drive changes in the tested setting, but its contribution relative to other EndMT regulators remains open.",
+        "evidence_quote": "SOX9 expression alone is sufficient to activate mesenchymal genes",
+        "abstract_sha256": "1ae17e50f59257f4c8d86116d7d94786b1538a444d962a22e85227f5d8cfcf7a",
+        "evidence_scope": "PubMed abstract",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "40810103",
+        "category": "Identity maintenance",
+        "factors": [
+          "C-MAF",
+          "GATA4"
+        ],
+        "model": "LSEC-specific Maf knockout mice and human liver datasets",
+        "methods": [
+          "Conditional knockout",
+          "Bulk RNA-seq",
+          "ATAC-seq",
+          "scRNA-seq"
+        ],
+        "finding": "Endothelial c-Maf loss disrupted sinusoidal differentiation and zonation, with pathogenic endothelial subsets and liver fibrosis.",
+        "limitation": "The mouse knockout tests c-Maf function; the human cirrhosis data show expression differences.",
+        "evidence_quote": "a switch from sinusoidal to continuous endothelial cell identity",
+        "abstract_sha256": "9f5d3425dcf650d91fc921de07b91f5c2b753ccfa3a35209bc5d1f0a272a2afb",
+        "evidence_scope": "PubMed abstract",
+        "human_reviewed": false
+      },
+      {
+        "pmid": "25802403",
+        "category": "Specification",
+        "factors": [
+          "ETV2",
+          "ETS factors"
+        ],
+        "model": "Mouse ESC differentiation and germline/conditional knockout models",
+        "methods": [
+          "Binding-site mapping",
+          "In vitro differentiation",
+          "Mouse knockout"
+        ],
+        "finding": "ETV2 initiated a hemangiogenic regulatory hierarchy that other ETS factors partly maintained after the initial specification phase.",
+        "limitation": "The abstract leaves the contributions of individual downstream ETS factors only partly resolved.",
+        "evidence_quote": "an ETS switching mechanism",
+        "abstract_sha256": "6c023d970b1af85c15936d0695154d5e7fbd85254933e9d11b79773137062b5f",
+        "evidence_scope": "PubMed abstract",
+        "human_reviewed": false
+      }
+    ]
+  },
+  "fulltext": {
+    "PMC10985233": {
+      "retrieved_at_utc": "2026-10-05T21:04:18Z",
+      "endpoint": "https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/",
+      "params": {
+        "verb": "GetRecord",
+        "identifier": "oai:pubmedcentral.nih.gov:10985233",
+        "metadataPrefix": "pmc"
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).",
+      "characters": 62478,
+      "status": "retrieved",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/?verb=GetRecord&identifier=oai%3Apubmedcentral.nih.gov%3A10985233&metadataPrefix=pmc",
+      "license_urls": [
+        ""
+      ],
+      "xml_sha256": "c9b0775a8f09199fd950eddf4cec61277577464883f426dfe3f095a27578cadd",
+      "text_sha256": "804de3adfc915a2405abb59e5c3a9823a21c3dd2158c3b6455dd6f83598ddbc0",
+      "body_bundled": false,
+      "body_available_locally": false
+    },
+    "PMC10992995": {
+      "retrieved_at_utc": "2026-10-05T21:04:24Z",
+      "endpoint": "https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/",
+      "params": {
+        "verb": "GetRecord",
+        "identifier": "oai:pubmedcentral.nih.gov:10992995",
+        "metadataPrefix": "pmc"
+      },
+      "license": "https://creativecommons.org/licenses/by/4.0/This article is available under a Creative Commons License (Attribution 4.0 International, as described at https://creativecommons.org/licenses/by/4.0/).",
+      "characters": 38039,
+      "status": "retrieved",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/?verb=GetRecord&identifier=oai%3Apubmedcentral.nih.gov%3A10992995&metadataPrefix=pmc",
+      "license_urls": [
+        ""
+      ],
+      "xml_sha256": "bb459cc404a07246d69fbb2ade04e1cca62c4b660f4e8eae27aea7c44bd782b1",
+      "text_sha256": "e41b94395e70810795d9e870cddb6c0fd3d5210a340596170f9c3096264cd9ad",
+      "body_bundled": false,
+      "body_available_locally": false
+    },
+    "PMC11827897": {
+      "retrieved_at_utc": "2026-10-05T21:04:21Z",
+      "endpoint": "https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/",
+      "params": {
+        "verb": "GetRecord",
+        "identifier": "oai:pubmedcentral.nih.gov:11827897",
+        "metadataPrefix": "pmc"
+      },
+      "license": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.",
+      "characters": 44388,
+      "status": "retrieved",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/?verb=GetRecord&identifier=oai%3Apubmedcentral.nih.gov%3A11827897&metadataPrefix=pmc",
+      "license_urls": [
+        ""
+      ],
+      "xml_sha256": "172177f981e244b3934a2a728960cb2978b4ebbd66113c2ed4d28bdb9b8afe1c",
+      "text_sha256": "894ce53d2d881ed6936390ed684398a84e62ced2aa1442fa4944f92138c51496",
+      "body_bundled": false,
+      "body_available_locally": false
+    },
+    "PMC12341620": {
+      "retrieved_at_utc": "2026-10-05T21:04:31Z",
+      "endpoint": "https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/",
+      "params": {
+        "verb": "GetRecord",
+        "identifier": "oai:pubmedcentral.nih.gov:12341620",
+        "metadataPrefix": "pmc"
+      },
+      "license": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+      "characters": 46010,
+      "status": "retrieved",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/?verb=GetRecord&identifier=oai%3Apubmedcentral.nih.gov%3A12341620&metadataPrefix=pmc",
+      "license_urls": [
+        ""
+      ],
+      "xml_sha256": "159c2f3f7e2f1f32cadb6793b3bb9086b62e27306f3e7ed1658160328fd620d0",
+      "text_sha256": "f880779cebb79cb8eecc54e8aa89ebb2679ceaf48775c1a5128342fe8a7d3cbb",
+      "body_bundled": false,
+      "body_available_locally": false
+    },
+    "PMC12571441": {
+      "retrieved_at_utc": "2026-10-05T21:04:28Z",
+      "endpoint": "https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/",
+      "params": {
+        "verb": "GetRecord",
+        "identifier": "oai:pubmedcentral.nih.gov:12571441",
+        "metadataPrefix": "pmc"
+      },
+      "license": "https://creativecommons.org/licenses/by/4.0/This is an Open Access article distributed under the terms of the Creative Commons Attribution License (https://creativecommons.org/licenses/by/4.0/), which permits unrestricted reuse, distribution, and reproduction in any medium, provided the original work is properly cited.",
+      "characters": 64889,
+      "status": "retrieved",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/?verb=GetRecord&identifier=oai%3Apubmedcentral.nih.gov%3A12571441&metadataPrefix=pmc",
+      "license_urls": [
+        ""
+      ],
+      "xml_sha256": "01f0acf4ac447b9b124b190558b28946321a571797c37db4088d7f28f9f76a68",
+      "text_sha256": "24025b1ffa9de791f29da59309600de2c35adad5764a3812106d604e5df2a699",
+      "body_bundled": false,
+      "body_available_locally": false
+    },
+    "PMC12738756": {
+      "retrieved_at_utc": "2026-10-05T21:04:26Z",
+      "endpoint": "https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/",
+      "params": {
+        "verb": "GetRecord",
+        "identifier": "oai:pubmedcentral.nih.gov:12738756",
+        "metadataPrefix": "pmc"
+      },
+      "license": "https://creativecommons.org/licenses/by/4.0/Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.",
+      "characters": 73461,
+      "status": "retrieved",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/?verb=GetRecord&identifier=oai%3Apubmedcentral.nih.gov%3A12738756&metadataPrefix=pmc",
+      "license_urls": [
+        ""
+      ],
+      "xml_sha256": "a6483c06fd94cb604382559820194785f043525855a0fd9947d0e18a011da384",
+      "text_sha256": "c6d0411cba740707475517c144c2e91d5dedad08a1e2b1b784cb4fae01ffbc16",
+      "body_bundled": false,
+      "body_available_locally": false
+    },
+    "PMC12836307": {
+      "retrieved_at_utc": "2026-10-05T21:04:25Z",
+      "endpoint": "https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/",
+      "params": {
+        "verb": "GetRecord",
+        "identifier": "oai:pubmedcentral.nih.gov:12836307",
+        "metadataPrefix": "pmc"
+      },
+      "license": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.",
+      "characters": 76645,
+      "status": "retrieved",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/?verb=GetRecord&identifier=oai%3Apubmedcentral.nih.gov%3A12836307&metadataPrefix=pmc",
+      "license_urls": [
+        ""
+      ],
+      "xml_sha256": "491f53d0534e62f8931062877833e7d66be33ab9e07be3961fa74b45d1e7b1fb",
+      "text_sha256": "5fa6efb8cbd558f5f8a3de44795892c07a4e5895af158d8e1e0eb756da7bb8b8",
+      "body_bundled": false,
+      "body_available_locally": false
+    },
+    "PMC13370475": {
+      "retrieved_at_utc": "2026-10-05T21:05:29Z",
+      "endpoint": "https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/",
+      "params": {
+        "verb": "GetRecord",
+        "identifier": "oai:pubmedcentral.nih.gov:13370475",
+        "metadataPrefix": "pmc"
+      },
+      "license": "",
+      "characters": 0,
+      "status": "unavailable",
+      "reason": "The document is unsupported for the given prefix.",
+      "code": "cannotDisseminateFormat"
+    },
+    "PMC13487233": {
+      "retrieved_at_utc": "2026-10-05T21:04:30Z",
+      "endpoint": "https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/",
+      "params": {
+        "verb": "GetRecord",
+        "identifier": "oai:pubmedcentral.nih.gov:13487233",
+        "metadataPrefix": "pmc"
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.",
+      "characters": 111443,
+      "status": "retrieved",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/?verb=GetRecord&identifier=oai%3Apubmedcentral.nih.gov%3A13487233&metadataPrefix=pmc",
+      "license_urls": [
+        ""
+      ],
+      "xml_sha256": "b5d22313e662f06cc00dffcd31bab9249be1f7cc7593d11d68faf731476f9208",
+      "text_sha256": "ec56a0cc81742b4cabf0bc31b2242f4820b063371a7d9f5377d5d387d017a1a0",
+      "body_bundled": false,
+      "body_available_locally": false
+    },
+    "PMC4428045": {
+      "retrieved_at_utc": "2026-10-05T21:05:30Z",
+      "endpoint": "https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/",
+      "params": {
+        "verb": "GetRecord",
+        "identifier": "oai:pubmedcentral.nih.gov:4428045",
+        "metadataPrefix": "pmc"
+      },
+      "license": "",
+      "characters": 0,
+      "status": "unavailable",
+      "reason": "The document is unsupported for the given prefix.",
+      "code": "cannotDisseminateFormat"
+    },
+    "PMC4633649": {
+      "retrieved_at_utc": "2026-10-05T21:04:20Z",
+      "endpoint": "https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/",
+      "params": {
+        "verb": "GetRecord",
+        "identifier": "oai:pubmedcentral.nih.gov:4633649",
+        "metadataPrefix": "pmc"
+      },
+      "license": "https://creativecommons.org/licenses/by/4.0/This work is licensed under a Creative Commons Attribution 4.0 International License. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in the credit line; if the material is not included under the Creative Commons license, users will need to obtain permission from the license holder to reproduce the material. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/",
+      "characters": 38291,
+      "status": "retrieved",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/?verb=GetRecord&identifier=oai%3Apubmedcentral.nih.gov%3A4633649&metadataPrefix=pmc",
+      "license_urls": [
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "xml_sha256": "2af1b1d209e219f2939a1039c27cf708837b690db34f69732e94691319c14915",
+      "text_sha256": "faa0778f630830a372ef5d9b948f4c925ce3d8976f8fde2c9e67cc6ca8a8edf4",
+      "body_bundled": false,
+      "body_available_locally": false
+    },
+    "PMC4881298": {
+      "retrieved_at_utc": "2026-10-05T21:04:22Z",
+      "endpoint": "https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/",
+      "params": {
+        "verb": "GetRecord",
+        "identifier": "oai:pubmedcentral.nih.gov:4881298",
+        "metadataPrefix": "pmc"
+      },
+      "license": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.",
+      "characters": 36438,
+      "status": "retrieved",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/?verb=GetRecord&identifier=oai%3Apubmedcentral.nih.gov%3A4881298&metadataPrefix=pmc",
+      "license_urls": [
+        ""
+      ],
+      "xml_sha256": "28662217988c1e8571e7c1ad6686ec8b46b03a5031e1412e6ebeb5a7dca10396",
+      "text_sha256": "91912dccbce89ded3dff77d3396b4e222f034a83d872f035f5cff23c7fc028ab",
+      "body_bundled": false,
+      "body_available_locally": false
+    },
+    "PMC5419721": {
+      "retrieved_at_utc": "2026-10-05T21:04:29Z",
+      "endpoint": "https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/",
+      "params": {
+        "verb": "GetRecord",
+        "identifier": "oai:pubmedcentral.nih.gov:5419721",
+        "metadataPrefix": "pmc"
+      },
+      "license": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.",
+      "characters": 51793,
+      "status": "retrieved",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/?verb=GetRecord&identifier=oai%3Apubmedcentral.nih.gov%3A5419721&metadataPrefix=pmc",
+      "license_urls": [
+        ""
+      ],
+      "xml_sha256": "340b5794991601875dafcbfb0a5188302f394e9ed6e6bf485b2551da4edfd66a",
+      "text_sha256": "7473f330f5f90671f1314fd147d68cc8ab1b02b0f0afdf7f4544507542570009",
+      "body_bundled": false,
+      "body_available_locally": false
+    },
+    "PMC5919293": {
+      "retrieved_at_utc": "2026-10-05T21:04:26Z",
+      "endpoint": "https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/",
+      "params": {
+        "verb": "GetRecord",
+        "identifier": "oai:pubmedcentral.nih.gov:5919293",
+        "metadataPrefix": "pmc"
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).",
+      "characters": 46734,
+      "status": "retrieved",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/?verb=GetRecord&identifier=oai%3Apubmedcentral.nih.gov%3A5919293&metadataPrefix=pmc",
+      "license_urls": [
+        "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      ],
+      "xml_sha256": "99639e26e318bab7e0477f9c97f71e04e30e1797b17d4d98b8aab53815349567",
+      "text_sha256": "4931c93abff575cab30885972ea588505b295630f3bcd137a0518717a7b12c89",
+      "body_bundled": false,
+      "body_available_locally": false
+    },
+    "PMC7002895": {
+      "retrieved_at_utc": "2026-10-05T21:05:28Z",
+      "endpoint": "https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/",
+      "params": {
+        "verb": "GetRecord",
+        "identifier": "oai:pubmedcentral.nih.gov:7002895",
+        "metadataPrefix": "pmc"
+      },
+      "license": "",
+      "characters": 0,
+      "status": "unavailable",
+      "reason": "The document is unsupported for the given prefix.",
+      "code": "cannotDisseminateFormat"
+    },
+    "PMC7191457": {
+      "retrieved_at_utc": "2026-10-05T21:05:29Z",
+      "endpoint": "https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/",
+      "params": {
+        "verb": "GetRecord",
+        "identifier": "oai:pubmedcentral.nih.gov:7191457",
+        "metadataPrefix": "pmc"
+      },
+      "license": "",
+      "characters": 0,
+      "status": "unavailable",
+      "reason": "The document is unsupported for the given prefix.",
+      "code": "cannotDisseminateFormat"
+    },
+    "PMC7758065": {
+      "retrieved_at_utc": "2026-10-05T21:04:27Z",
+      "endpoint": "https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/",
+      "params": {
+        "verb": "GetRecord",
+        "identifier": "oai:pubmedcentral.nih.gov:7758065",
+        "metadataPrefix": "pmc"
+      },
+      "license": "https://creativecommons.org/licenses/by/4.0/This article is distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use and redistribution provided that the original author and source are credited.",
+      "characters": 45144,
+      "status": "retrieved",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/?verb=GetRecord&identifier=oai%3Apubmedcentral.nih.gov%3A7758065&metadataPrefix=pmc",
+      "license_urls": [
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "xml_sha256": "4e80065b18efd6ffbabcd438d5d06e926e02beffb64d6be9924f4a440fca1cf7",
+      "text_sha256": "561b74138f006548424bfc3fc5ffd33fab861d42084aa6477d4ff634c4d5b88a",
+      "body_bundled": false,
+      "body_available_locally": false
+    },
+    "PMC7801938": {
+      "retrieved_at_utc": "2026-10-05T21:04:19Z",
+      "endpoint": "https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/",
+      "params": {
+        "verb": "GetRecord",
+        "identifier": "oai:pubmedcentral.nih.gov:7801938",
+        "metadataPrefix": "pmc"
+      },
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).",
+      "characters": 55890,
+      "status": "retrieved",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/?verb=GetRecord&identifier=oai%3Apubmedcentral.nih.gov%3A7801938&metadataPrefix=pmc",
+      "license_urls": [
+        ""
+      ],
+      "xml_sha256": "938f02bfbef5ded65292c7913ca653a1017d878f40c3103da2c1adbca3cd0caf",
+      "text_sha256": "f83b302c1476551f92976678b22c341a00ed38f96e465bb4a0b25e4a30ac7d31",
+      "body_bundled": false,
+      "body_available_locally": false
+    },
+    "PMC9410909": {
+      "retrieved_at_utc": "2026-10-05T21:04:31Z",
+      "endpoint": "https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/",
+      "params": {
+        "verb": "GetRecord",
+        "identifier": "oai:pubmedcentral.nih.gov:9410909",
+        "metadataPrefix": "pmc"
+      },
+      "license": "https://creativecommons.org/licenses/by/4.0/This is an Open Access article distributed under the terms of the Creative Commons Attribution License (https://creativecommons.org/licenses/by/4.0/), which permits unrestricted reuse, distribution, and reproduction in any medium, provided the original work is properly cited.",
+      "characters": 62267,
+      "status": "retrieved",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/?verb=GetRecord&identifier=oai%3Apubmedcentral.nih.gov%3A9410909&metadataPrefix=pmc",
+      "license_urls": [
+        ""
+      ],
+      "xml_sha256": "54c816415cc93aa1ddee0c948117104abfcc308f652216ab9c681d0cde9f189c",
+      "text_sha256": "f0f1d06e96627a6a8051c5d5dc0ad18cb07eb83a9355eea0a5aefa1f9d7118c2",
+      "body_bundled": false,
+      "body_available_locally": false
+    },
+    "PMC9868097": {
+      "retrieved_at_utc": "2026-10-05T21:04:22Z",
+      "endpoint": "https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/",
+      "params": {
+        "verb": "GetRecord",
+        "identifier": "oai:pubmedcentral.nih.gov:9868097",
+        "metadataPrefix": "pmc"
+      },
+      "license": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.",
+      "characters": 57940,
+      "status": "retrieved",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/?verb=GetRecord&identifier=oai%3Apubmedcentral.nih.gov%3A9868097&metadataPrefix=pmc",
+      "license_urls": [
+        ""
+      ],
+      "xml_sha256": "81180f4f36e9d11697ca2fe790205a34aae6cbc37df32dbf62937a579fb85cb2",
+      "text_sha256": "822bdc621d1d9b11d5f29dc5eb3a5cb978c266ca18569bc45c5dc7c9724c462a",
+      "body_bundled": false,
+      "body_available_locally": false
+    },
+    "PMC9982073": {
+      "retrieved_at_utc": "2026-10-05T21:04:20Z",
+      "endpoint": "https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/",
+      "params": {
+        "verb": "GetRecord",
+        "identifier": "oai:pubmedcentral.nih.gov:9982073",
+        "metadataPrefix": "pmc"
+      },
+      "license": "https://creativecommons.org/licenses/by/4.0/This is an Open Access article distributed under the terms of the Creative Commons Attribution License (https://creativecommons.org/licenses/by/4.0/), which permits unrestricted reuse, distribution, and reproduction in any medium, provided the original work is properly cited.",
+      "characters": 42117,
+      "status": "retrieved",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/?verb=GetRecord&identifier=oai%3Apubmedcentral.nih.gov%3A9982073&metadataPrefix=pmc",
+      "license_urls": [
+        ""
+      ],
+      "xml_sha256": "06a11ada993fe7cba3ed0a7db2153198b1ad1ef31e66cf92ed09dc0197e31b1e",
+      "text_sha256": "f79955884871d566b4edd7e7698c635a131b730583fd84802f811ed760570c2d",
+      "body_bundled": false,
+      "body_available_locally": false
+    }
+  }
+}

@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+data/
+results/**/*.json
+results/**/*.npz
+results/**/*.sqlite
+results/task1/*.csv
