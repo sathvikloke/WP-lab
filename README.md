@@ -33,3 +33,7 @@ Collects 25 papers on endothelial cell identity using the [reference workflow](h
 ## Problems encountered
 
 Python 3.10 and pinned packages resolved dependency conflicts. The DARLIN server returned 403, so the alternate tutorial link supplied the data. Semantic Scholar returned 429; PubMed worked. Missing cell labels count toward clone size but stay out of selected-fate analysis. PMC's retired download endpoint required switching to its current OAI-PMH API.
+
+## AI use
+
+We used LLMs to help draft code. LLMs were not used to create the analysis; we made it ourselves. We openly use LLMs to help with drafting code, but we don't use them for analysis, because then we wouldn't actually gain anything from the work. We also review all of the code ourselves.
