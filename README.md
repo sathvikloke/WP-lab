@@ -1,4 +1,4 @@
-# Pu lab assessment
+# WP lab
 
 Two notebooks covering lineage tracing and literature collection. Both include their code, outputs and brief explanations.
 
